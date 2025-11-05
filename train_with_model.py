@@ -68,7 +68,7 @@ model.train()
 print(model)
 
 loss_fn = nn.CrossEntropyLoss()
-learning_rate = 5e-2
+learning_rate = 6e-2
 optimizer = torch.optim.SGD(model.parameters(), lr=learning_rate)
 
 

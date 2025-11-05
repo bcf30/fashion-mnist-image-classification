@@ -126,5 +126,5 @@ if __name__ == "__main__":
         test(test_dataloader, model)
     print("Done!")
 
-    torch.save(model.state_dict(), "data/fashion_mnist.pth")
-    print("Saved PyTorch Model State to fashion_mnist.pth")
+    torch.save(model.state_dict(), "data/fashion_mnist2.pth")
+    print("Saved PyTorch Model State to fashion_mnist2.pth")
