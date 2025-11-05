@@ -27,7 +27,7 @@ test_data = datasets.FashionMNIST(
 
 batch_size = 128
 
-train_dataloader = DataLoader(training_data, batch_size=batch_size,  pin_memory=True)
+train_dataloader = DataLoader(training_data, batch_size=batch_size, pin_memory=True)
 test_dataloader = DataLoader(test_data, batch_size=batch_size, pin_memory=True)
 
 for X, y in test_dataloader:
